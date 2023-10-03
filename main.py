@@ -1,5 +1,5 @@
 from pyrogram import Client, filters
-from pyrogram.types import *
+from pyrogram.types import 
 from pymongo import MongoClient
 import requests
 import random
@@ -8,7 +8,7 @@ import re
 import asyncio
 import time
 from datetime import datetime
-from config import ADMINS, FORCE_MSG, START_MSG, CUSTOM_CAPTION, DISABLE_CHANNEL_BUTTON, PROTECT_CONTENT
+from config import FORCE_MSG
 from helper_func import subscribed, encode, decode, get_messages
 #from database.users_chats_db import db
 
