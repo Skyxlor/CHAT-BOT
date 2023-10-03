@@ -66,7 +66,7 @@ async def restart(client, m: Message):
     await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║➣ @r3Ady_4_m3\n║\n║➣ @OFFIC3AL_N3TWORK\n║\n║➣ @OFFIC3AL_BOT\n║\n╚══════ஜ۩۞۩ஜ═════╝")
 
 
-@Bot.on_message(filters.command('start') & filters.private)
+@bot.on_message(filters.command('start') & filters.private)
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
