@@ -8,7 +8,6 @@ import re
 import asyncio
 import time
 from datetime import datetime
-from config import FORCE_MSG
 from helper_func import subscribed, encode, decode, get_messages
 #from database.users_chats_db import db
 
