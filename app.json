@@ -1,12 +1,12 @@
 {
-    "name": "𝗩𝗜𝗣 𝗖𝗛𝗔𝗧𝗕𝗢𝗧",    
+    "name": "𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 𝗖𝗛𝗔𝗧𝗕𝗢𝗧",    
     "env": {
         "BOT_TOKEN": {
-            "description": "𝐅𝐢𝐥𝐥 𝐘𝐨𝐮𝐫 𝐁𝐨𝐭 𝐓𝐨𝐤𝐞𝐧 𝐎𝐧𝐥𝐲.",
+            "description": "ғɪʟʟ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏᴋᴇɴ ᴏɴʟʏ.",
             "required": true
         },
         "MONGO_URL": {
-            "description": "𝐅𝐢𝐥𝐥 𝐘𝐨𝐮𝐫 𝐖𝐨𝐫𝐤𝐢𝐧𝐠 𝐌𝐨𝐧𝐠𝐨(ғᴀsᴛ ᴡᴏʀᴋ)",
+            "description": "ғɪʟʟ ʏᴏᴜʀ ᴡᴏʀᴋɪɴɢ ᴍᴏɴɢᴏ(ғᴀsᴛ ᴡᴏʀᴋ)",
             "required": true
         }
     },
