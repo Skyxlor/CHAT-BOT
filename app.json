@@ -4,7 +4,11 @@
         "BOT_TOKEN": {
             "description": "ғɪʟʟ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏᴋᴇɴ ᴏɴʟʏ.",
             "required": true
-        },
+    },
+        "FORCE_SUB_CHANNEL": {
+        "description": "id of the channel or group, if you want enable force sub feature else put 0",
+        "value": ""
+    },
         "MONGO_URL": {
             "description": "ғɪʟʟ ʏᴏᴜʀ ᴡᴏʀᴋɪɴɢ ᴍᴏɴɢᴏ(ғᴀsᴛ ᴡᴏʀᴋ)",
             "required": true
