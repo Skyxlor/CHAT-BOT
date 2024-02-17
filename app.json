@@ -1,12 +1,12 @@
 {
-    "name": "𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 𝗖𝗛𝗔𝗧𝗕𝗢𝗧",    
+    "name": "𝗚𝗥𝗢𝗢𝗩𝗬 𝗖𝗛𝗔𝗧-𝗕𝗢𝗧",    
     "env": {
         "BOT_TOKEN": {
             "description": "ғɪʟʟ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏᴋᴇɴ ᴏɴʟʏ.",
             "required": true
     },
         "FORCE_SUB_CHANNEL": {
-        "description": "id of the channel or group, if you want enable force sub feature else put 0",
+        "description": "ɪᴅ ᴏғ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ᴏʀ ɢʀᴏᴜᴘ, ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴇɴᴀʙʟᴇ ғᴏʀᴄᴇ sᴜʙ ғᴇᴀᴛᴜʀᴇ ᴇʟsᴇ ᴘᴜᴛ 0",
         "value": ""
     },
         "MONGO_URL": {
