@@ -4,6 +4,3 @@ requests
 dnspython
 tgcrypto==1.2.2
 asyncio
-
-
-M3_4_U
