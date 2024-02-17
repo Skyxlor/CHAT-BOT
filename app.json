@@ -1,22 +1,32 @@
 {
-    "name": "𝗚𝗥𝗢𝗢𝗩𝗬 𝗖𝗛𝗔𝗧-𝗕𝗢𝗧",    
-    "env": {
-        "BOT_TOKEN": {
-            "description": "ғɪʟʟ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏᴋᴇɴ ᴏɴʟʏ.",
-            "required": true
+  "name": "𝗚𝗥𝗢𝗢𝗩𝗬 𝗖𝗛𝗔𝗧-𝗕𝗢𝗧",
+  "description": "A telegram bot",
+  "logo": "https://telegra.ph/file/b9c43593a63f408227a71.jpg",
+  "keywords": [
+    "Chatbot",
+    "mongodb",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "repository": "https://github.com/Skyxlor/CHAT-BOT",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "A Bot token from @BotFather",
+      "required": true,
+      "value": ""
     },
-        "FORCE_SUB_CHANNEL": {
-        "description": "ɪᴅ ᴏғ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ᴏʀ ɢʀᴏᴜᴘ, ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴇɴᴀʙʟᴇ ғᴏʀᴄᴇ sᴜʙ ғᴇᴀᴛᴜʀᴇ ᴇʟsᴇ ᴘᴜᴛ 0",
-        "value": ""
+    "OWNER_ID": {
+      "description": "Fill Here Your Owner User Id",
+      "required": true,
+      "value": "6048261556"
     },
-        "MONGO_URL": {
-            "description": "ғɪʟʟ ʏᴏᴜʀ ᴡᴏʀᴋɪɴɢ ᴍᴏɴɢᴏ(ғᴀsᴛ ᴡᴏʀᴋ)",
-            "required": true
-        }
-    },
-    "addons": [
-        {
-            "plan": "heroku-postgresql"
-        }
-    ]
+    "MONGO_URL": {
+      "description": "Get a mongodb url from https://cloud.mongodb.com.",
+      "required": true,
+      "value": ""
+    }
+  }
 }
